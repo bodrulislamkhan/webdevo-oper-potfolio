@@ -1,0 +1,38 @@
+/* Shere comment */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+nav {
+     display: flex;
+     justify-content: space-between;
+ }
+.nav-title {
+  font-weight: 800;
+  font-size: 48px;
+  color: #181818;
+}
+.text-primary {
+  color: peru;
+}
+.btn-primary {
+  background: #fd6e0a;
+  border-radius: 5px;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  border: 0;
+  padding: 0.5rem 2.5rem;
+}
+nav > ul {
+     display: flex;
+     align-items: center;
+ }
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 5rem;
+  color: #474747;
+}
