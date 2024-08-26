@@ -64,6 +64,10 @@ header {
 .banner-contac {
 }
 /* main section style */
+main{
+  margin: 0 auto;
+  max-width: 1140px;
+}
 
 /* about section style */
 .about {
@@ -71,4 +75,11 @@ header {
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0;
+}
+.about-title-container{
+display: flex;
+justify-content: space-around;
+}
+.about-info{
+  text-align: center;
 }
