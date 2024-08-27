@@ -64,10 +64,10 @@ header {
 .banner-contac {
 }
 /* main section style */
-main section{
+main section {
   margin-top: 130px;
 }
-main{
+main {
   margin: 0 auto;
   max-width: 1140px;
 }
@@ -79,34 +79,47 @@ main{
   background: #fff8f3;
   margin: 130px 0;
 }
-.about-title-container{
-display: flex;
-justify-content: space-around;
+.about-title-container {
+  display: flex;
+  justify-content: space-around;
 }
-.about-info{
+.about-info {
   text-align: center;
 }
 /* skills related sting */
-#whit-i-do-description{
+#whit-i-do-description {
   padding: 30px 150px;
 }
-.skills-container{
+.skills-container {
   display: flex;
   gap: 24px;
 }
-.skill-img{
+.skill-img {
   width: 50px;
 }
-.skill{
+.skill {
   padding: 30px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.skill-description{
+.skill-description {
   color: #474747;
 }
 /* Resumi section style */
-.resume-colume-title{
+.resume {
+  display: flex;
+}
+.resume-colume-title {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
+}
+/* footer style */
+footer {
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 200px;
+  margin-top: 100px;
+}
+.social-links img {
+  width: 30px;
 }
