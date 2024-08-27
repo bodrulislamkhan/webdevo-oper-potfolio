@@ -105,6 +105,14 @@ main {
   color: #474747;
 }
 /* Resumi section style */
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+h2.resume-item-institute {
+  font-size: 19px;
+  color: #474747;
+}
 .resume {
   display: flex;
 }
@@ -115,6 +123,7 @@ main {
 }
 /* footer style */
 footer {
+  gap: 100px;
   display: flex;
   background: #fff8f3;
   padding: 130px 200px;
@@ -122,4 +131,22 @@ footer {
 }
 .social-links img {
   width: 30px;
+}
+.social-links a {
+  margin-right: 14px;
+}
+.footer-column {
+  width: 50%;
+}
+.contact input[type="text"],
+.contact input[type="Email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  background: #fff;
+  border-radius: 5px;
+  border: 0;
+  width: 100%;
 }
